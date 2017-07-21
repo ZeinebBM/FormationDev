@@ -54,6 +54,22 @@ namespace UnitTestProject1
             Assert.AreEqual(0, resu);
         }
     }
+    [TestClass]
+    public class UnitTest2
+    {
+        [TestMethod]
+        public void TestMethod2()
+        {
+            // Arrange
+            var controller = new ValuesController();
+
+            // Act
+            var resu = controller.BMI(0, 1);
+
+            //Assert
+            Assert.AreEqual(0, resu);
+        }
+    }
 
 
 }
