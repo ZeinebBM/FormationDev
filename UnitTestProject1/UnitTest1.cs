@@ -21,29 +21,14 @@ namespace UnitTestProject1
             Assert.AreEqual(1,resu );
         }
     }
-    [TestClass]
-    public class UnitTest2
-    {
-        [TestMethod]
-        public void TestMethod2()
-        {
-            // Arrange
-            var controller = new ValuesController();
-
-            // Act
-            var resu = controller.BMI(9,3);
-
-            //Assert
-            Assert.AreEqual(, resu);
-        }
-    }
+    
     [TestClass]
     public class UnitTest3
     {
         [TestMethod]
         public void TestMethod3()
         {
-            // Arrange
+            //  Arrange
             var controller = new ValuesController();
 
             // Act
